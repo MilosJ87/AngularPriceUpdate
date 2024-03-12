@@ -3481,7 +3481,7 @@ input[type=button].btn-block {
   min-height: 1.5rem;
   padding-left: 1.5rem;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  color-adjust: exact;
 }
 
 .custom-control-inline {
@@ -10178,8 +10178,7 @@ header.mastbad {
     padding-bottom: 8rem;
     text-align: center;
     color: #fff;
-    background-image: url('./assets/img/gold-investment-in-bars-and-coins.jpg');
-    
+      
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -10486,7 +10485,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("./assets/img/map-image.png");
+  background-image: url(/src/assets/img/map-image.png);
   background-repeat: no-repeat;
   background-position: center;
 }
